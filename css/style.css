@@ -1,0 +1,36 @@
+.iphoneWrap {
+	width:344px;
+	height:700px;
+	position: relative;
+}
+
+.iphone {
+	height:700px;
+	position: absolute;
+	top:0;
+	box-shadow: 0px 47px 64px -13px rgba(0,0,0,0.17);
+	border-radius:50px;
+}
+
+.iphoneScreen {
+	width:297px;
+	height:529px;
+	margin:0 auto;
+	background-color:black;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	position:absolute;
+	top:87px;
+	right:0;
+	left:0;
+	cursor: url('../img/cursor.png'), default;
+}
+
+.iphoneScreen::-webkit-scrollbar {
+	display:none;
+}
+
+.iphoneScreen img {
+	width:100%;
+	height:auto;
+}
